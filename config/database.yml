@@ -12,11 +12,11 @@ development:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: carlqvist_6
-  pool: 5
-  username: root
-  password: ogK75LO4qQuD
-  host: cbil.mine.nu
+  database: xxx
+  pool: XX
+  username: XXX
+  password: XXX
+  host: XXX
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
