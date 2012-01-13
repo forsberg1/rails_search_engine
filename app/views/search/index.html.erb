@@ -1,0 +1,23 @@
+<div class="row margin-bottom5 padding5">
+<button class="btn success disabled"><%= @count_result %> träffar</button>
+<a href="/" class="btn primary">Gör en ny sökning</a>
+</div>
+<div class="row">
+<table class="zebra-striped">
+  <tr>
+    <th>Märke</th>
+    <th>År</th>
+  </tr>
+
+<% @cars.each do |car| %>
+  <tr>
+  <td><%= car.brand  %></td>
+  <td><%= car.model_year  %></td>
+  </tr>
+<% end %>
+</table>
+
+<%= will_paginate @cars %>
+
+</div>
+
